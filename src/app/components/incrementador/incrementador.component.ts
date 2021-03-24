@@ -20,9 +20,6 @@ export class IncrementadorComponent implements OnInit{
   @Output()valorSalida:EventEmitter<number> = new EventEmitter();
 
 
-
-
-
   cambiarValor(valor:number){
 
     if(this.progreso >= 100 && valor >=0){

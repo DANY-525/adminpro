@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ChartsModule } from 'ng2-charts';
+
 
 import { ComponentsModule } from '../components/components.module';
 import { ProgressComponent } from './progress/progress.component';
@@ -35,7 +35,7 @@ import { AppRoutingModule } from '../app-routing.module';
     AppRoutingModule,
     FormsModule,
     ComponentsModule,
-    ChartsModule
+    
   ]
 })
 export class PagesModule { }
