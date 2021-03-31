@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -19,6 +20,7 @@ import { AppRoutingModule } from '../app-routing.module';
     Grafica1Component,
     DashboardComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
 
 
@@ -26,6 +28,7 @@ import { AppRoutingModule } from '../app-routing.module';
     Grafica1Component,
     DashboardComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
 
 
