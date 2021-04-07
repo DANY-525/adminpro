@@ -11,6 +11,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesaComponent } from './promesa/promesa.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -21,6 +23,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     DashboardComponent,
     PagesComponent,
     AccountSettingsComponent,
+    PromesaComponent,
+    RxjsComponent,
   ],
 
 
